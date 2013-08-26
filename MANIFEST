@@ -1,0 +1,16 @@
+Changes
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
+lib/PAUSE/Packages.pm
+lib/PAUSE/Packages/Entry.pm
+lib/PAUSE/Packages/EntryIterator.pm
+lib/PAUSE/Packages/Module.pm
+lib/PAUSE/Packages/Release.pm
+lib/PAUSE/Packages/ReleaseIterator.pm
+t/01-entry-iterator.t
+t/02-release-iterator.t
+t/02packages-mini.txt
