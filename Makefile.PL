@@ -21,10 +21,14 @@ my %WriteMakefileArgs = (
   "NAME" => "PAUSE::Packages",
   "PREREQ_PM" => {
     "CPAN::DistnameInfo" => 0,
+    "Carp" => 0,
     "File::HomeDir" => 0,
     "File::Spec::Functions" => 0,
+    "HTTP::Date" => 0,
     "HTTP::Tiny" => 0,
+    "JSON" => 0,
     "Moo" => 0,
+    "PAUSE::Packages::EntryIterator" => 0,
     "autodie" => 0,
     "feature" => 0
   },
@@ -33,7 +37,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

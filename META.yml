@@ -17,13 +17,17 @@ meta-spec:
 name: PAUSE-Packages
 requires:
   CPAN::DistnameInfo: 0
+  Carp: 0
   File::HomeDir: 0
   File::Spec::Functions: 0
+  HTTP::Date: 0
   HTTP::Tiny: 0
+  JSON: 0
   Moo: 0
+  PAUSE::Packages::EntryIterator: 0
   autodie: 0
   feature: 0
 resources:
   homepage: https://github.com/neilbowers/PAUSE-Packages
   repository: https://github.com/neilbowers/PAUSE-Packages.git
-version: 0.01
+version: 0.02
