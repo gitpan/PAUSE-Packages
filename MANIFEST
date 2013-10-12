@@ -11,3 +11,4 @@ lib/PAUSE/Packages/Release.pm
 lib/PAUSE/Packages/ReleaseIterator.pm
 t/02-release-iterator.t
 t/02packages-mini.txt
+t/03-release.t

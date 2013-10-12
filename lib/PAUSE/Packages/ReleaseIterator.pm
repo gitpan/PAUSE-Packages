@@ -1,6 +1,6 @@
 package PAUSE::Packages::ReleaseIterator;
 {
-  $PAUSE::Packages::ReleaseIterator::VERSION = '0.03';
+  $PAUSE::Packages::ReleaseIterator::VERSION = '0.04';
 }
 
 use Moo;
