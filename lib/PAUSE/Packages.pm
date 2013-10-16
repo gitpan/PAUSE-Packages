@@ -1,8 +1,9 @@
 package PAUSE::Packages;
 {
-  $PAUSE::Packages::VERSION = '0.04';
+  $PAUSE::Packages::VERSION = '0.05';
 }
 
+use 5.10.0;
 use Moo;
 use File::HomeDir;
 use File::Spec::Functions 'catfile';

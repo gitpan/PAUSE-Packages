@@ -27,7 +27,8 @@ requires:
   PAUSE::Packages::EntryIterator: 0
   autodie: 0
   feature: 0
+  perl: v5.10.0
 resources:
   homepage: https://github.com/neilbowers/PAUSE-Packages
   repository: https://github.com/neilbowers/PAUSE-Packages.git
-version: 0.04
+version: 0.05
