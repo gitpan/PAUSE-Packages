@@ -1,6 +1,6 @@
 package PAUSE::Packages;
 {
-  $PAUSE::Packages::VERSION = '0.05';
+  $PAUSE::Packages::VERSION = '0.06';
 }
 
 use 5.10.0;
@@ -29,14 +29,6 @@ has 'path' =>
     (
      is      => 'rw',
     );
-
-sub entry_iterator
-{
-    my $self = shift;
-
-    require PAUSE::Packages::EntryIterator;
-    return PAUSE::Packages::EntryIterator->new( packages => $self );
-}
 
 sub release_iterator
 {

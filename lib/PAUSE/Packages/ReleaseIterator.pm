@@ -1,6 +1,6 @@
 package PAUSE::Packages::ReleaseIterator;
 {
-  $PAUSE::Packages::ReleaseIterator::VERSION = '0.05';
+  $PAUSE::Packages::ReleaseIterator::VERSION = '0.06';
 }
 
 use 5.10.0;
