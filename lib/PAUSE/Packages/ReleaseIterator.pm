@@ -1,6 +1,6 @@
 package PAUSE::Packages::ReleaseIterator;
 {
-  $PAUSE::Packages::ReleaseIterator::VERSION = '0.06';
+  $PAUSE::Packages::ReleaseIterator::VERSION = '0.07';
 }
 
 use 5.10.0;
@@ -18,7 +18,7 @@ has 'packages' =>
         default => sub { return PAUSE::Packages->new(); },
     );
 
-sub next
+sub next_release
 {
     my $self = shift;
     my @modules;
@@ -56,5 +56,8 @@ sub next
 
     return undef;
 }
+
+# method alias for backwards compatibility
+*next = \&next_release;
 
 1;

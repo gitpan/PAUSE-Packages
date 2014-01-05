@@ -30,4 +30,4 @@ requires:
 resources:
   homepage: https://github.com/neilbowers/PAUSE-Packages
   repository: https://github.com/neilbowers/PAUSE-Packages.git
-version: 0.06
+version: 0.07

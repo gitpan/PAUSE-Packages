@@ -1,6 +1,6 @@
 package PAUSE::Packages::Module;
 {
-  $PAUSE::Packages::Module::VERSION = '0.06';
+  $PAUSE::Packages::Module::VERSION = '0.07';
 }
 
 use 5.10.0;
