@@ -1,8 +1,5 @@
 package PAUSE::Packages::Module;
-{
-  $PAUSE::Packages::Module::VERSION = '0.07';
-}
-
+$PAUSE::Packages::Module::VERSION = '0.08';
 use 5.10.0;
 use Moo;
 

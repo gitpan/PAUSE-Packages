@@ -17,7 +17,7 @@ ok(defined($pp), "instantiate PAUSE::Packages");
 #-----------------------------------------------------------------------
 # construct the iterator
 #-----------------------------------------------------------------------
-my $iterator = $pp->release_iterator();
+my $iterator = $pp->release_iterator(well_formed => 1);
 
 ok(defined($iterator), 'create release iterator');
 
@@ -31,8 +31,8 @@ END_EXPECTED
 
 my $string = '';
 
-while (my $release = $iterator->next) {
-    $string .= $release->distinfo->dist
+while (my $release = $iterator->next_release) {
+    $string .= ($release->distinfo->dist || 'undef')
                .'|'
                .join(',', map { $_->name } @{ $release->modules })
                ."\n";
