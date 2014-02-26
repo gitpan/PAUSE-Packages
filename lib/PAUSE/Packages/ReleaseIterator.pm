@@ -1,5 +1,5 @@
 package PAUSE::Packages::ReleaseIterator;
-$PAUSE::Packages::ReleaseIterator::VERSION = '0.08';
+$PAUSE::Packages::ReleaseIterator::VERSION = '0.09';
 use 5.10.0;
 use Moo;
 use PAUSE::Packages;

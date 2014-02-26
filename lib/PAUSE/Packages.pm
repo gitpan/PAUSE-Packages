@@ -1,5 +1,5 @@
 package PAUSE::Packages;
-$PAUSE::Packages::VERSION = '0.08';
+$PAUSE::Packages::VERSION = '0.09';
 use 5.10.0;
 use Moo;
 use File::HomeDir;
@@ -271,6 +271,15 @@ the above module, which is claimed to be a lot faster.
 =item *
 
 L<Parse::CPAN::Perms>
+
+=item *
+
+L<CPAN::Common::Index> - aims to be a common interface to all available backends
+
+=item *
+
+L<CPAN::PackageDetails> - can be used to read an existing copy of
+02packages.details.txt, or to create your own.
 
 =back
 
