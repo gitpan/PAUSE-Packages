@@ -1,5 +1,5 @@
 package PAUSE::Packages::Release;
-$PAUSE::Packages::Release::VERSION = '0.09';
+$PAUSE::Packages::Release::VERSION = '0.10';
 use 5.10.0;
 use Moo;
 use CPAN::DistnameInfo;
